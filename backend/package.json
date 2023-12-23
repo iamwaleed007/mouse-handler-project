@@ -1,0 +1,40 @@
+{
+  "name": "backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Mouse controller",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@nut-tree/nut-js": "^3.1.2",
+    "@strapi/plugin-i18n": "4.10.1",
+    "@strapi/plugin-users-permissions": "4.10.1",
+    "@strapi/provider-email-nodemailer": "^4.10.5",
+    "@strapi/provider-upload-local": "^4.10.5",
+    "@strapi/strapi": "4.10.1",
+    "axios": "^1.4.0",
+    "better-sqlite3": "8.0.1",
+    "nodemailer-ntlm-auth": "^1.0.3",
+    "pg": "^8.10.0",
+    "socket.io": "^4.6.2",
+    "strapi-plugin-email": "^3.6.11",
+    "strapi-plugin-upload": "^3.6.11",
+    "strapi-stripe": "^3.3.0",
+    "strapi-utils": "^3.6.11"
+  },
+  "author": {
+    "name": "Waleed Rauf"
+  },
+  "strapi": {
+    "uuid": "f0baa125-5799-4818-81fa-d4743874db42"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
